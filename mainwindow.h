@@ -18,6 +18,7 @@ class MainWindow : public QMainWindow
 private slots:
     void open();
     void process();
+    //void save();
 
 public:
     explicit MainWindow(QWidget *parent = 0);
@@ -29,6 +30,7 @@ private:
     void createAction();
 
     double filter[5];
+    QImage rawImage, scaledImage, processedImage;
 };
 
 #endif // MAINWINDOW_H
