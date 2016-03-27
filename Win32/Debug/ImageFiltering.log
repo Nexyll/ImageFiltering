@@ -1,0 +1,10 @@
+﻿  Moc'ing mainwindow.h...
+  Uic'ing mainwindow.ui...
+  filtering.cpp
+filtering.cpp(15): warning C4100: 'fil' : paramètre formel non référencé
+  moc_mainwindow.cpp
+  main.cpp
+  mainwindow.cpp
+  pmatrix.cpp
+  Génération de code en cours...
+  ImageFiltering.vcxproj -> C:\Users\Antoine\Documents\GitHub\ImageFiltering\debug\ImageFiltering.exe
