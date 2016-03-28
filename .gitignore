@@ -38,3 +38,7 @@
 .suo
 .vs
 *.sln
+*.log
+*.tlog
+Win32/
+GeneratedFiles/
