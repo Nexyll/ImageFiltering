@@ -42,3 +42,4 @@
 *.tlog
 Win32/
 GeneratedFiles/
+debug/
