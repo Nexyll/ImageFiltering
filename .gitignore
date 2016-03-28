@@ -27,7 +27,7 @@
 *.out
 *.app
 
-# VC Files
+# VS Files
 *.pro
 *.vcxproj
 *.pdb
