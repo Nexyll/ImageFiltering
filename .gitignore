@@ -26,3 +26,12 @@
 *.exe
 *.out
 *.app
+
+# VC Files
+*.pro
+*.vcxproj
+*.pdb
+*.ilk
+*.suo
+*.user
+*.filters
