@@ -29,7 +29,7 @@ private:
 
     void createAction();
 
-    double filter[5];
+
     QImage rawImage, scaledImage, processedImage;
 };
 

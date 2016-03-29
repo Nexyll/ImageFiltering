@@ -5,8 +5,7 @@
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
-    ui(new Ui::MainWindow),
-    filter {-2, -1, 0, 1, 2}
+    ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
     rawImage = QImage(ui->imageLabel->pixmap()->toImage());
