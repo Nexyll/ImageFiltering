@@ -28,8 +28,7 @@ void MainWindow::open()
     if (!fileName.isEmpty()) {
         rawImage = QImage(fileName);
         if (rawImage.isNull()) {
-            QMessageBox::information(this, tr("Image Viewer"),
-                                     tr("Cannot load %1.").arg(fileName));
+            QMessageBox::information(this, tr("Image Viewer"), tr("Cannot load %1.").arg(fileName));
             return;
         }
         QSize maxSize = ui->imageLabel->size();

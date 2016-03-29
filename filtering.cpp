@@ -8,9 +8,6 @@
  * @param img passage en référence constante de l'image sur laquelle appliquée le filtre pour retourner l'image traitée
  * @param fil
  * @return
- *
- *
- *
  */
 QImage Filtering::filter(QImage const& img, double fil[5])
 {
@@ -41,9 +38,6 @@ QImage Filtering::filter(QImage const& img, double fil[5])
  * @brief Filtering::gauss
  * @param img
  * @return
- *
- * J'ai fais de la merde sans le constructeur, mais ça ne fonctionne pas encore...
- *
  */
 QImage Filtering::gauss(QImage const& img)
 {
