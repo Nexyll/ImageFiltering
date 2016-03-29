@@ -24,8 +24,12 @@ void MainWindow::createAction(){
 
 void MainWindow::open()
 {
+<<<<<<< HEAD
     QString fileName = QFileDialog::getOpenFileName(this,
                                     tr("Open File"), QStandardPaths::standardLocations(QStandardPaths::PicturesLocation).last());
+=======
+    QString fileName = QFileDialog::getOpenFileName(this,tr("Open File"), QDir::currentPath());
+>>>>>>> master
     if (!fileName.isEmpty()) {
         rawImage = QImage(fileName);
         if (rawImage.isNull()) {

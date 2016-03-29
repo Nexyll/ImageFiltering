@@ -26,3 +26,20 @@
 *.exe
 *.out
 *.app
+
+# VS Files
+*.pro
+*.vcxproj
+*.pdb
+*.ilk
+*.suo
+*.user
+*.filters
+.suo
+.vs
+*.sln
+*.log
+*.tlog
+Win32/
+GeneratedFiles/
+debug/
