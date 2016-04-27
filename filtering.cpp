@@ -116,9 +116,3 @@ QImage Filtering::canny(QImage const& img)
     }
     return QImage(nImg.toImage());
 }
-
-
-
-
-
-
